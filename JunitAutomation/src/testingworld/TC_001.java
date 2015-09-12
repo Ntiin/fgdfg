@@ -18,6 +18,7 @@ public class TC_001 {
 	@Test
 	public void testUntitled() throws Exception {
 		selenium.open("/");
+		System.out.println("HELLO");
 		selenium.click("link=About Us");
 		selenium.waitForPageToLoad("30000");
 		selenium.click("link=Sucess Story");
